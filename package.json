@@ -1,0 +1,24 @@
+{
+  "name": "cypress-automation",
+  "version": "1.0.0",
+  "description": "This repository is used to fight automatically on LeekWars.",
+  "main": "cypress/plugins/index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cyprille/cypress-leek.git"
+  },
+  "author": "cyprille",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cyprille/cypress-leek/issues"
+  },
+  "homepage": "https://github.com/cyprille/cypress-leek/#readme",
+  "devDependencies": {
+    "@testing-library/cypress": "^7.0.6",
+    "cypress": "^9.1.0",
+    "cypress-fail-on-console-error": "^2.1.2"
+  }
+}

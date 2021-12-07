@@ -6,5 +6,13 @@
     
     "env": {
         "domain": "https://leekwars.com/garden/solo/81711"
+    },
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/report/mochawesome-report"
     }
 }

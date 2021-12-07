@@ -7,3 +7,12 @@ install:
 	fi
 
 	npm install
+
+launch:
+	npx cypress open
+	
+run:
+	npx cypress run --reporter mochawesome \
+	&& npx mochawesome-merge cypress/report/mochawesome-report/*.json > cypress/report/output.json \
+	&& npx marge cypress/report/output.json --reportDir ./ --inline \
+	&& open ./output.html

@@ -19,6 +19,10 @@
   "devDependencies": {
     "@testing-library/cypress": "^7.0.6",
     "cypress": "^9.1.0",
-    "cypress-fail-on-console-error": "^2.1.2"
+    "mochawesome": "^7.0.1",
+    "mochawesome-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "mocha": "^9.1.3"
   }
 }

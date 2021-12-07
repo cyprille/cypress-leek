@@ -6,3 +6,5 @@ cypress.json
 .config/
 .cache/
 .npm/
+report
+output.html

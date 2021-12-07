@@ -22,16 +22,12 @@ npm test
 
 # Execute tests
 ## Launch Cypress with the graphical interface
-This option allows you to select wich tests you want to run (one or all).
-Firs you need to have _Cypress_ installed locally (be sure to install the same version than this project).
 ```bash
-npx cypress open
+make launch
 ```
 Then, you just have to click on the test you want to run.
 
-## Launch Cypress in headless mode
-This is an example using the `run --spec` command.
-
+## Run Cypress in headless mode and generate reports
 ```bash
-npx cypress run --spec './cypress/<PATH>/<SCRIPT>.js'
+make run
 ```

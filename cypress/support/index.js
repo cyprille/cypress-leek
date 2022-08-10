@@ -10,7 +10,7 @@ Cypress.Commands.add('login', () => {
   
   cy.get('input[name="password"]')
   .type('***')
-  .should('have.value', 'De3p#Ouse1987$')
+  .should('have.value', '***')
   
   cy.get('.v-input--selection-controls__ripple')
   .click({ multiple: true, force: true })

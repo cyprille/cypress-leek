@@ -5,12 +5,12 @@ Cypress.Commands.add('login', () => {
   cy.visit('https://leekwars.com/login')
   
   cy.get('input[name="login"]')
-  .type('cyprille.chauvry@gmail.com')
-  .should('have.value', 'cyprille.chauvry@gmail.com')
+  .type('<EMAIL>')
+  .should('have.value', '<EMAIL>')
   
   cy.get('input[name="password"]')
-  .type('***')
-  .should('have.value', '***')
+  .type('<PASSWORD>')
+  .should('have.value', '<PASSWORD>')
   
   cy.get('.v-input--selection-controls__ripple')
   .click({ multiple: true, force: true })

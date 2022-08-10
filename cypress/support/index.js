@@ -9,7 +9,7 @@ Cypress.Commands.add('login', () => {
   .should('have.value', 'cyprille.chauvry@gmail.com')
   
   cy.get('input[name="password"]')
-  .type('De3p#Ouse1987$')
+  .type('***')
   .should('have.value', 'De3p#Ouse1987$')
   
   cy.get('.v-input--selection-controls__ripple')

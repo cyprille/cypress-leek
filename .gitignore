@@ -8,3 +8,4 @@ cypress.json
 .npm/
 report
 output.html
+.videos/*

@@ -3,9 +3,11 @@
     "chromeWebSecurity": false,
     "viewportWidth": 1280,
     "viewportHeight": 720,
-    
     "env": {
-        "domain": "https://leekwars.com/garden/solo/81711"
+        "login": "email@example.com",
+        "password": "password",
+        "garden_id": XXX,
+        "leek_id": XXX
     },
     "reporter": "mochawesome",
     "reporterOptions": {
